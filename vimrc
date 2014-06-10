@@ -1,3 +1,6 @@
+" Start pathogen
+execute pathogen#infect()
+
 set nocompatible                        " Vi compatibility is not important
 set mouse=a                             " Mouses are useful too
 setlocal spell spelllang=en_us          " Enable spelling
