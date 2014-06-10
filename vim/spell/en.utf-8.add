@@ -47,3 +47,6 @@ mountpoint
 nfs
 sudo
 sanitization
+plugins
+repo
+symlinks
