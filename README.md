@@ -13,4 +13,4 @@ Clone this repo into a directory of your choice. Then you need to create symlink
     ln -s <PATH TO REPO>/vim ~/.vim
 
 ##Copyright
-All submodules and plugins are owned by their respective authors. All configuration files and plugins contained herein are placed in the public domain.
+All submodules and plugins are owned by their respective authors and contributors. All other configuration files and plugins written by me (Grant Brady) contained herein are placed in the public domain.
