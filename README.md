@@ -7,7 +7,7 @@ The purpose of this repo is to centralize all of vim configuration and to create
 A secondary purpose to to share the work I have done with others in the hope that is may be useful.
 
 ##Installation
-Clone this repo into a directory of your choice. Then you need to create symlinks to point at these files.
+Recursively clone (git clone --recursive <URI>) this repo into a directory of your choice. Then you need to create symlinks to point at these files.
 
     ln -s <PATH TO REPO>/vimrc ~/.vimrc
     ln -s <PATH TO REPO>/vim ~/.vim
