@@ -31,3 +31,6 @@ set tabstop=4 shiftwidth=4 expandtab
 syntax on
 filetype on                 " enables filetype detection
 filetype plugin indent on   " enables filetype specific plugin
+
+" Set make line length to 100 for flake
+let g:flake8_max_line_length=100
