@@ -13,6 +13,3 @@
 [submodule "vim/bundle/SearchComplete"]
 	path = vim/bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
-[submodule "taglist"]
-	path = taglist
-	url = https://github.com/bragr/taglist.vim.git
