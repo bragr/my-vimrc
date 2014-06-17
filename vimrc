@@ -15,7 +15,7 @@ set background=dark
 set cursorline
 set t_Co=256
 set number
-colorscheme slate   " Color blind friendly
+colorscheme ron   " Color blind friendly
 
 " code folding
 set foldmethod=indent   "fold based on indent
