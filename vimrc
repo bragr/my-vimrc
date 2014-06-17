@@ -34,3 +34,5 @@ filetype plugin indent on   " enables filetype specific plugin
 
 " Make taglist to F8 for now
 nnoremap <silent> <F8> :TlistToggle<CR>
+
+let g:ycm_min_num_of_chars_for_completion = 1
