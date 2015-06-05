@@ -51,3 +51,5 @@ plugins
 repo
 symlinks
 plugin
+IP
+DNS
