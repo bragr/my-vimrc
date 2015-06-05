@@ -46,3 +46,5 @@ let g:ycm_min_num_of_chars_for_completion = 2
 " on spelling issues instead
 hi clear SpellBad
 hi SpellBad cterm=underline
+
+let g:vim_json_syntax_conceal = 0
