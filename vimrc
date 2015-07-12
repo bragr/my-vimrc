@@ -38,6 +38,9 @@ let g:flake8_max_line_length=100
 " Make taglist to F8 for now
 nnoremap <silent> <F8> :TlistToggle<CR>
 
+" Begin completing after 2 characters
+let g:ycm_min_num_of_chars_for_completion = 2
+
 " Setting a background red color for misspelled words, while at the same time
 " having highlighting, is a colorblind disaster waiting to happen. So underline
 " on spelling issues instead
