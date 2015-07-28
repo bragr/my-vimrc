@@ -53,3 +53,10 @@ symlinks
 plugin
 IP
 DNS
+dir
+rsyslog
+sbin
+https
+tmp
+Accesslog
+app
