@@ -13,3 +13,6 @@
 [submodule "vim/bundle/vim-json"]
 	path = vim/bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
+[submodule "vim/bundle/neocomplete"]
+	path = vim/bundle/neocomplete
+	url = git@github.com:Shougo/neocomplete.vim.git
