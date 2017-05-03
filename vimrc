@@ -85,3 +85,9 @@ setlocal spell spelllang=en_us          " Enable spelling
 " on spelling issues instead, set a black BG and contrasting FG
 hi clear SpellBad
 hi SpellBad cterm=underline ctermfg=LightYellow ctermbg=Black
+hi clear SpellCap
+hi SpellCap cterm=underline ctermfg=LightYellow ctermbg=Black
+hi clear SpellLocal
+hi SpellLocal cterm=underline ctermfg=LightYellow ctermbg=Black
+hi clear SpellRare
+hi SpellRare cterm=underline ctermfg=LightYellow ctermbg=Black
