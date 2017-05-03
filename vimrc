@@ -3,7 +3,6 @@ execute pathogen#infect()
 
 set nocompatible                        " Vi compatibility is not important
 set mouse=a                             " Mouses are useful too
-setlocal spell spelllang=en_us          " Enable spelling
 
 " Use case insensitive search, except when using capital letters
 set ignorecase
@@ -16,12 +15,6 @@ set cursorline
 set t_Co=256
 set number
 colorscheme ron   " Color blind friendly
-
-" code folding
-set foldmethod=indent   "fold based on indent
-set foldnestmax=10      "deepest fold is 10 levels
-set nofoldenable        "don't fold by default
-set foldlevel=1         "this is just what i use
 
 " indentation
 set autoindent
@@ -37,14 +30,6 @@ let g:flake8_max_line_length=100
 
 " Make taglist to F8 for now
 nnoremap <silent> <F8> :TlistToggle<CR>
-
-" Setting a background red color for misspelled words, while at the same time
-" having highlighting, is a colorblind disaster waiting to happen. So underline
-" on spelling issues instead, set a black BG and contrasting FG
-hi clear SpellBad
-hi SpellBad cterm=underline ctermfg=LightYellow ctermbg=Black
-
-let g:vim_json_syntax_conceal = 0
 
 " neocomplete
 let g:acp_enableAtStartup = 0
@@ -93,3 +78,10 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 if !exists('g:neocomplete#sources#omni#input_patterns')
   let g:neocomplete#sources#omni#input_patterns = {}
 endif
+
+setlocal spell spelllang=en_us          " Enable spelling
+" Setting a background red color for misspelled words, while at the same time
+" having highlighting, is a colorblind disaster waiting to happen. So underline
+" on spelling issues instead, set a black BG and contrasting FG
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=LightYellow ctermbg=Black
