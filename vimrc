@@ -96,3 +96,6 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 if !exists('g:neocomplete#sources#omni#input_patterns')
   let g:neocomplete#sources#omni#input_patterns = {}
 endif
+
+highlight Pmenu ctermbg=33 ctermfg=0
+highlight PmenuSel ctermbg=21 ctermfg=15
