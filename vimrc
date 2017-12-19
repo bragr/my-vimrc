@@ -23,6 +23,18 @@ let g:flake8_max_line_length=100
 " Make taglist to F8 for now
 nnoremap <silent> <F8> :TlistToggle<CR>
 
+" visual
+colorscheme ron   " Color blind friendly
+highlight Normal ctermbg=black
+set background=dark
+set t_Co=256
+set cursorline
+set cursorcolumn
+hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
+set colorcolumn=120
+highlight ColorColumn ctermbg=magenta
+set number
+
 setlocal spell spelllang=en_us          " Enable spelling
 " Setting a background red color for misspelled words, while at the same time
 " having highlighting, is a colorblind disaster waiting to happen. So underline
@@ -35,16 +47,6 @@ hi clear SpellLocal
 hi SpellLocal cterm=underline ctermfg=LightYellow ctermbg=Black
 hi clear SpellRare
 hi SpellRare cterm=underline ctermfg=LightYellow ctermbg=Black
-
-" visual
-colorscheme ron   " Color blind friendly
-highlight Normal ctermbg=black
-set background=dark
-set t_Co=256
-set cursorline
-set cursorcolumn
-hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
-set number
 
 " Neocomplete
 let g:acp_enableAtStartup = 0
