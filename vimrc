@@ -29,10 +29,11 @@ highlight Normal ctermbg=black
 set background=dark
 set t_Co=256
 set cursorline
+hi CursorColumn   cterm=NONE ctermbg=234 ctermfg=NONE
 set cursorcolumn
-hi CursorLine   cterm=NONE ctermbg=8 ctermfg=NONE
+hi CursorLine   cterm=NONE ctermbg=236 ctermfg=NONE
 set colorcolumn=120
-highlight ColorColumn ctermbg=magenta
+highlight ColorColumn ctermbg=22
 set number
 
 setlocal spell spelllang=en_us          " Enable spelling
