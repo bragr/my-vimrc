@@ -17,8 +17,8 @@ filetype plugin indent on   " enables filetype specific plugin
 " Set make line length to 100 for flake
 let g:flake8_max_line_length=100
 
-" Make taglist to F8 for now
-nnoremap <silent> <F8> :TlistToggle<CR>
+" Make tagbar to F8 for now
+nmap <F8> :TagbarToggle<CR>
 
 " visual
 colorscheme ron   " Color blind friendly
@@ -59,4 +59,5 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'majutsushi/tagbar'
 call plug#end()
