@@ -15,7 +15,7 @@ filetype on                 " enables filetype detection
 filetype plugin indent on   " enables filetype specific plugin
 
 " Set make line length to 100 for flake
-let g:flake8_max_line_length=100
+let g:flake8_max_line_length=120
 
 " Make tagbar to F8 for now
 nmap <F8> :TagbarToggle<CR>
@@ -61,5 +61,6 @@ Plug 'zchee/deoplete-jedi'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'majutsushi/tagbar'
+Plug 'nvie/vim-flake8'
 call plug#end()
 let g:deoplete#enable_at_startup = 1
