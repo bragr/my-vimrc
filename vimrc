@@ -64,4 +64,11 @@ Plug 'majutsushi/tagbar'
 Plug 'nvie/vim-flake8'
 Plug 'hashivim/vim-terraform'
 call plug#end()
+
+" autocomplete goodnes
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option({
+    \ 'ignore_case': v:false,
+    \ 'ignore_sources': {'_': ['buffer', 'around']}
+    \ })
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
