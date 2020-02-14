@@ -14,9 +14,6 @@ syntax on
 filetype on                 " enables filetype detection
 filetype plugin indent on   " enables filetype specific plugin
 
-" Set make line length to 100 for flake
-let g:flake8_max_line_length=120
-
 " Make tagbar to F8 for now
 nmap <F8> :TagbarToggle<CR>
 
